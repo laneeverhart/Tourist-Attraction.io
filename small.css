@@ -1,0 +1,183 @@
+html {
+	height: 100%;
+}
+
+@font-face {
+	font-family: "horrorfont";
+	src:url("MYBLS___.TTF");
+}
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+
+body {
+	background-size: cover !important;
+	font-family: "Verdana, sans-serif: margin:0";
+	background: url("https://i.ytimg.com/vi/VUuNRmZvPYY/maxresdefault.jpg") no-repeat center center fixed;
+}
+
+
+ 
+ .grid{
+	width:100vw;
+	height: 100vh;
+	display:grid;
+	grid-gap: 15%;
+	grid-template-columns:1fr;
+}
+
+}
+.tickets {
+	margin: 0 auto;
+}
+.ticketsbanner{
+	grid-row:1;
+	position: relative;
+	margin: 0 auto;
+}
+
+.houseSlides {
+	display:none;
+}
+
+.coasterSlides {
+	display: none;
+}
+
+.coasterSlideshowContainer {
+	width: 300px;
+	height: 300px;
+	grid-row: 4;
+	position: relative;
+	margin: 0 auto;
+}
+
+.houseSlideshowContainer {
+	width: 300px;
+	height: 300px;
+	grid-row:3;
+	position: relative;
+	margin: 0 auto;
+}
+.footer {
+	margin: 0 auto;
+	font-family: horrorFont;
+	font-size: 2em;
+	color: red;
+}
+
+.prev, .next {
+	cursor: pointer;
+	position: absolute;
+	top: 50%;
+	width: auto;
+	padding: 16px;
+	margin-top: -22px;
+	color: white;
+	font-weight: bold;
+	font-size: 18px;
+	transition: 0.6 ease;
+	border-radius: 0 3px 3px 0;
+}
+
+.next {
+	right: 0px;
+	border-radius: 3px 0 0 3px;
+	position:absolute;
+}
+
+.prev:hover, .next:hover{
+	background-color: rgba(0,0,0,0.8);
+}
+
+.before, .after {
+	cursor: pointer;
+	position: absolute;
+	top: 40%;
+	width: auto;
+	padding: 16px;
+	margin-top: -22px;
+	color: white;
+	font-weight: bold;
+	font-size: 18px;
+	transition: 0.6 ease;
+	border-radius: 0 3px 3px 0;
+}
+
+.after {
+	right: 0px;
+	border-radius: 3px 0 0 3px;
+}
+
+.before:hover, .after:hover{
+	background-color: rgba(0,0,0,0.8);
+}
+
+.numbertext {
+	color: #f2f2f2;
+	font-size: 12px;
+	padding: 8px 12px;
+	position: absolute;
+	top:0;
+}
+
+
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@media only screen and (max-width: 300px) {
+  .prev, .next,.text {font-size: 11px}
+}
+
+
+h1 {
+	font-family: "horrorFont";
+	color: red;
+	margin: 0 auto;
+	position: relative;
+}
+
+p {
+	font-family: "horrorFont";
+	color: red;
+	grid-row: 2;
+	font-size: 6em;
+	margin: 0 auto;
+	position: relative;
+
+}
+
+.directions {
+	grid-row: 5;
+	font-family: "horrorFont";
+	color: green;
+	font-size: 5em;
+	display: inline-block;
+	margin: 0 auto;
+	position: relative;
+}
+
+a:-webkit-any-link {
+    color: green;
+    cursor: pointer;
+    text-decoration: none;
+    display: inline-block;
+}
+
