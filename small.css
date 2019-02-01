@@ -21,47 +21,60 @@ body {
 
 
  
- .grid{
-	width:100vw;
-	height: 100vh;
-	display:grid;
-	grid-gap: 15%;
+ .grid {
+	display: grid;
 	grid-template-columns:1fr;
+	grid-gap: 10%;
+	justify-items: center;
 }
 
-}
 .tickets {
-	margin: 0 auto;
+	width: 90vw;
 }
-.ticketsbanner{
-	grid-row:1;
-	position: relative;
-	margin: 0 auto;
+
+img {
+	height: 100%;
+	width: 100%;
 }
 
 .houseSlides {
 	display:none;
+	height: 100%;
+	width: 100%;
 }
 
 .coasterSlides {
 	display: none;
+	height: 100%;
+	width: 100%;
 }
 
 .coasterSlideshowContainer {
-	width: 300px;
-	height: 300px;
+	width: 80vw;
+	height: 60vh;
 	grid-row: 4;
-	position: relative;
 	margin: 0 auto;
+	position: relative;
 }
 
+
 .houseSlideshowContainer {
-	width: 300px;
-	height: 300px;
-	grid-row:3;
-	position: relative;
+	width: 80vw;
+	height: 60vh;
+	grid-row: 3;
 	margin: 0 auto;
+	position: relative;
 }
+
+.caption {
+	display: block;
+	font-family: "horrorFont";
+	color: red;
+	margin-top: 1vh;
+	text-align: center;
+	font-size: 6vw;
+}
+
 .footer {
 	margin: 0 auto;
 	font-family: horrorFont;
@@ -146,21 +159,12 @@ body {
   .prev, .next,.text {font-size: 11px}
 }
 
-
-h1 {
-	font-family: "horrorFont";
-	color: red;
-	margin: 0 auto;
-	position: relative;
-}
-
 p {
 	font-family: "horrorFont";
 	color: red;
 	grid-row: 2;
-	font-size: 6em;
-	margin: 0 auto;
-	position: relative;
+	font-size: 8vw;
+	margin-top: 1vh;
 
 }
 
@@ -168,9 +172,9 @@ p {
 	grid-row: 5;
 	font-family: "horrorFont";
 	color: green;
-	font-size: 5em;
+	font-size: 8vw;
 	display: inline-block;
-	margin: 0 auto;
+	margin: 20vh auto;
 	position: relative;
 }
 
