@@ -24,7 +24,7 @@ body {
  .grid {
 	display: grid;
 	grid-template-columns:1fr;
-	grid-gap: 10%;
+	grid-gap: 100px;
 	justify-items: center;
 }
 
@@ -139,6 +139,8 @@ img {
 
 
 .fade {
+  -moz-animation-name: fade;
+  -moz-animation-duration: 1.5s;
   -webkit-animation-name: fade;
   -webkit-animation-duration: 1.5s;
   animation-name: fade;
