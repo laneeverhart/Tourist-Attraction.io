@@ -24,7 +24,7 @@ body {
  .grid {
 	display: grid;
 	grid-template-columns:1fr;
-	grid-gap: 100px;
+	grid-gap: 200px;
 	justify-items: center;
 }
 
