@@ -76,7 +76,7 @@ img {
 }
 
 .footer {
-	margin: 0 auto;
+	text-align: center;
 	font-family: horrorFont;
 	font-size: 2em;
 	color: red;
